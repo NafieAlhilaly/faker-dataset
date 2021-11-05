@@ -31,7 +31,3 @@ class FakeDataset:
             return pd.DataFrame(data)
 
         return data
-
-
-dataset = FakeDataset()
-print(dataset.simple_dataset(n_rows=9, as_df=True))
